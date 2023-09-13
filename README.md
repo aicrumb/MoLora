@@ -6,8 +6,10 @@ https://twitter.com/aicrumb/status/1681846805959528448
 
 ### Example usage
 
+either `git clone https://github.com/aicrumb/MoLora` and cd into the directory or `pip install git+https://github.com/aicrumb/MoLora` work for installation
+
 ```python
-from model import MoLoraForCausalLM
+from molora import MoLoraForCausalLM
 
 model = MoLoraForCausalLM(
     base_model="gpt2-xl",
